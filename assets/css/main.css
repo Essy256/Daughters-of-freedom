@@ -1988,12 +1988,13 @@ section,
 
 .portfolio-details .swiper-pagination {
   margin-top: 20px;
+  padding-top: 20px;
   position: relative;
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
@@ -2024,6 +2025,7 @@ section,
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
+  padding-bottom: 20px;
   font-size: 15px;
 }
 
@@ -2067,6 +2069,7 @@ section,
   position: relative;
   background: color-mix(in srgb, var(--default-color), transparent 97%);
   margin-bottom: 50px;
+
 }
 
 .portfolio-details .portfolio-description .testimonial-item .testimonial-img {
